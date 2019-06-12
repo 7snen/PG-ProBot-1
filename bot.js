@@ -1602,7 +1602,7 @@ const cuttweet = [
   //help prv
   
   client.on("message", message => {
-    if (message.content === "&help") {
+    if (message.content === "$help") {
      const embed = new Discord.RichEmbed() 
          .setColor("RANDOM")
          .setThumbnail(message.author.avatarURL)
@@ -1622,6 +1622,7 @@ const cuttweet = [
  
 ـــــــــــــــــــــــــــــــــــــــــــ
 اوامر البوت 
+
 $ping | لمعرفة بنقك و بنق البوت
 $bot | معلومـآت عن البوت
 $server | يعطيك معلومات عن السيرفر
